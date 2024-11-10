@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Build folder
+build/
+
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Tailwind CSS cache
+tailwind.config.js.bak
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# GitHub Pages generated files
+*.cache/
+.cache/
