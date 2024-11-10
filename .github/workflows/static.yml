@@ -24,6 +24,8 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -41,4 +43,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          branch: gh-pages  # Make sure you're deploying to the correct branch
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}        
