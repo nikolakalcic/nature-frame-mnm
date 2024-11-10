@@ -1,4 +1,3 @@
-# Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
 on:
@@ -43,5 +42,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}        
+          token: ${{ secrets.GITHUB_TOKEN }}  # Only one "with" block here
