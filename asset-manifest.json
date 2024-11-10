@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nature-frame-mnm/static/css/main.172292f0.css",
+    "main.js": "/nature-frame-mnm/static/js/main.050185ec.js",
+    "index.html": "/nature-frame-mnm/index.html",
+    "main.172292f0.css.map": "/nature-frame-mnm/static/css/main.172292f0.css.map",
+    "main.050185ec.js.map": "/nature-frame-mnm/static/js/main.050185ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.172292f0.css",
+    "static/js/main.050185ec.js"
+  ]
+}
