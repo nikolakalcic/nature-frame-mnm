@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css'; // Make sure to import the custom CSS
+import './index.css'; // Import the custom styles
 
 // Functional Component
 const App = () => {
